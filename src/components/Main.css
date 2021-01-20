@@ -1,0 +1,63 @@
+
+.co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 10px;
+
+}
+.side{
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+}
+.side h1{
+    padding-bottom: 15px;
+    font-size: 3em;
+}
+.side p{
+    color: #000;
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: quicksand;
+
+}
+.side .spanName{
+    color: #d81616;
+}
+.side button{
+    outline: none;
+    border: none;
+    background: #d81616;
+    padding: 10px 35px;
+    margin-top: 40px;
+    color: #fff;
+}
+.side button a{
+    background: inherit;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+.imag{
+    max-width: 660px;
+}
+.imag img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width:746px){
+    .side{
+        padding: 100px 7px;
+    }
+   .imag{
+       display: none;
+   }
+} 
+
+
+
+
+  

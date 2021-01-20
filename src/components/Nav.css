@@ -1,0 +1,47 @@
+
+a{
+    color: #424141;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    padding:10px;
+    color: #4e4e4e;
+}
+header .brand {
+    margin-left: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.brand p{
+    font-size: 19px;
+}
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation ul li {
+    padding: 9px;
+    margin-right: 12px;
+    font-size: 15px;
+}
+.navigation ul li a{
+    color: #3e3c3c;
+    transition: border .1s .2s linear;
+    padding: 5px 0;
+    font-size: .8em;
+}
+.navigation ul li a:hover{
+    border-bottom: none;
+    font-weight: bolder;
+}
+.active{
+    font-weight: bolder;
+    border-bottom: 3px solid #e44c4c;
+}

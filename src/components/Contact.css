@@ -1,0 +1,69 @@
+.contact__inner{
+   
+    border-radius: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4px;
+    margin-top: 50px;
+ 
+}
+.contact__inner .hire_intro{
+    margin-bottom: 40px;
+}
+.hire_intro h1{
+    font-size: 3em;
+    color: #4e4e4e;
+    margin-bottom: 10px;
+}
+.hire_intro p{
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'quicksand';
+
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+}
+.contact__inner h3{
+    font-size: 1.3em;
+    color: #4e4e4e;
+    margin-bottom: 3px;
+}
+.email, .phone_no{
+    display: flex;
+    padding:7px;
+}
+
+.email p, .phone_no p{
+    margin-left:10px;
+    font-size: 17px;
+    font-style: italic;
+    border-bottom: 3px solid red;
+    transition: ease-in-out .3s .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+.phone_no p:hover{
+    border-bottom: none;
+}
+.email p:hover{
+    border-bottom: none;
+}
+
+
+@media screen and (max-width:502px){
+    .hire_intro h1 {
+        font-size: 1.9em;
+ 
+    }
+    .hire_intro p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
